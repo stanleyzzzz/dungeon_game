@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<BorderPane fx:id="borderPane" onKeyPressed="#handleKeyPress" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane fx:id="squares" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+         <columnConstraints>
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+         <children>
+      
+         </children>
+      </GridPane>
+   </center>
+   <left>
+      <VBox fx:id = "inventory" BorderPane.alignment="TOP_LEFT" />
+   </left>
+   <right>
+      <VBox fx:id = "goals" BorderPane.alignment="CENTER" />
+   </right>
+   <top>
+      <HBox fx:id = "buttons" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <HBox fx:id = "bottom" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
